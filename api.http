@@ -1,0 +1,30 @@
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+{
+"name": "Américo Malungo",
+"email": "string123@gmail.com",
+"password": "string"
+}
+
+
+###
+GET http://localhost:3000/users
+
+
+###
+GET http://localhost:3000/users/cmjy5fthr0002fsi5q0b7euxc
+
+
+###
+PATCH http://localhost:3000/users
+Content-Type: application/json
+{
+"name": "Américo Malungo",
+"email": "string123@gmail.com",
+"password": "string"
+}
+
+
+###
+DELETE  http://localhost:3000/users/cmjy3u5v00000gzi5ljy1umx7
